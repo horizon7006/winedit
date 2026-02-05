@@ -4,7 +4,7 @@ import { Video, Settings, Download, Loader2 } from "lucide-react";
 
 import { Player } from "./components/preview/Player";
 import Timeline from "./components/timeline";
-import { MediaBin } from "./components/media/MediaBin";
+import { Library } from "./components/library/Library";
 import { PropertiesPanel } from "./components/properties/PropertiesPanel";
 import { ExportModal } from "./components/export/ExportModal";
 import { WelcomeScreen } from "./components/layout/WelcomeScreen";
@@ -111,7 +111,7 @@ function App() {
           </div>
         }
         mediaBin={
-          <MediaBin />
+          <Library />
         }
         preview={
           <Player />

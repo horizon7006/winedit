@@ -36,6 +36,7 @@ export interface Clip {
 
     properties: ClipProperties;
     isSelected?: boolean;
+    folder?: string; // e.g. 'video', 'audio', 'image', 'starter-pack'
 }
 
 export interface Track {
